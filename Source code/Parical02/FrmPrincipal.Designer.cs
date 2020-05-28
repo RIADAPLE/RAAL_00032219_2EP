@@ -179,19 +179,19 @@ namespace Parical02
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(193, 74);
+            this.txtDireccion.Location = new System.Drawing.Point(215, 74);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(188, 23);
             this.txtDireccion.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(6, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 23);
+            this.label1.Size = new System.Drawing.Size(191, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Introduzca su dirección:\r\n\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -696,9 +696,9 @@ namespace Parical02
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.txtDireccion);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(42, 45);
+            this.groupBox2.Location = new System.Drawing.Point(19, 45);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(414, 214);
+            this.groupBox2.Size = new System.Drawing.Size(437, 214);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Actualizar dirección";

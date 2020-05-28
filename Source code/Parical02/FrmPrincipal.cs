@@ -66,7 +66,7 @@ namespace Parical02
             
             //actualizar dirección
             cmbDirección.DataSource = null;
-            cmbDirección.ValueMember = "idUser";
+            cmbDirección.ValueMember = "idAddress";
             cmbDirección.DisplayMember = "address";
             cmbDirección.DataSource = DirecciónDAO.getDirección();
             
@@ -143,6 +143,8 @@ namespace Parical02
                     MessageBox.Show("Ha ocurrido un error");
                 } 
             }
+
+            actualizar();
         }
 
         private void btnAgregarEmp_Click(object sender, EventArgs e)
@@ -318,7 +320,7 @@ namespace Parical02
         {
             try
             {
-                Conexion.realizarAccion($"DELETE FROM \"Address\" WHERE \"idUser\" = {usuario.idUser}");
+                Conexion.realizarAccion($"DELETE FROM \"Address\" WHERE \"idAddress\" = {cmbDirección.SelectedValue}");
                 MessageBox.Show("Se ha eliminado la dirección");
             }
             catch (Exception ex)
